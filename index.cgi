@@ -23,7 +23,7 @@ YOU = 'paulproteus@localhost'
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        as_string = pprint.pprint(dict(request.form))
+        as_string = pprint.pformat(dict(request.form))
         msg = email.mime.text.MIMEText(as_string)
         msg['Subject'] = 'Inbound IPN POST'
         msg['From'] = ME
