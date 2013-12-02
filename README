@@ -1,0 +1,10 @@
+This is the world's simplest IPN endpoint,
+for the OpenHatch donate page.
+
+It does no validation. It just sends emails.
+
+All files in this repo, unless marked otherwise,
+are tri-licensed AGPLv3, Apache License 2.0, and
+CC Zero.
+
+(C) Asheesh Laroia 2013.
