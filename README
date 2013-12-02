@@ -8,3 +8,16 @@ are tri-licensed AGPLv3, Apache License 2.0, and
 CC Zero.
 
 (C) Asheesh Laroia 2013.
+
+
+Development setup:
+
+* Create a virtualenv with:
+
+   virtualenv --system-site-packages env
+
+* Install dependencies with:
+
+   env/bin/pip install -r requirements.txt
+
+Now you have to somehow set up the CGI to execute.
